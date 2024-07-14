@@ -1,0 +1,12 @@
+.contentContainer {
+  width: 100%;
+  height: auto;
+  padding: 60px 20px 20px 270px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: auto;
+  grid-gap: 32px 0px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}

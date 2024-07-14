@@ -9,7 +9,9 @@ export default function LeftNav() {
         <h4 className={navStyle.subTitle}>produced by C.H.Kao</h4>
       </div>
       <div className={navStyle.indexGroup}>
-        <Link to="/portfolio" className={navStyle.portfolioLink}>My Portfolio</Link>
+        <Link to="/portfolio" className={navStyle.portfolioLink}>
+        My Portfolio
+        </Link>
         <Link to="/aboutme" className={navStyle.aboutMeLink}>
           About C.H.Kao
         </Link>
