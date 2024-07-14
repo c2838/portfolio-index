@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { PortfolioPage, AboutMePage, HomePage } from './assets/page';
-const basename = process.env.PUBLIC_URL;
+const basename = "/portfolio-index"
 import './App.css'
 
 function App() {
