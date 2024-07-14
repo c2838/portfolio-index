@@ -5,7 +5,7 @@ export default function HomePage() {
   const navigate = useNavigate()
   useEffect(() => {
     setTimeout(() => {
-      navigate("/portfolio");
+      navigate("/portfolio-index/portfolio");
     }, 1000);
   }, [navigate]);
 }
