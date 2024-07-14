@@ -39,7 +39,7 @@ const portfolioDatas = [
     demoUrl: "https://c2838.github.io/todolist/",
     title: "Todo List",
     introduction:
-      "以 HTML、CSS module 及 React.js 進行設計，主要切版 todo list，並學習 React-router-dom 的使用，並理解 SPA/SSA 的模式差異，且利用 Axios 進行後端串接，並利用 Local Storage 記憶登入狀態，也學習使用軟體( Postman )進行 API 測試。",
+      "以 HTML、CSS module 及 React.js 進行設計，主要切版 todo list，並學習 React-router-dom 的使用，並理解 SPA/SSA 的模式差異；另外也練習了自訂 React Hook，且利用 Axios 進行後端串接，並利用 Local Storage 記憶登入狀態，也學習使用軟體( Postman )進行 API 測試。",
   },
 ];
 

@@ -1,5 +1,11 @@
-
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function HomePage() {
-  return <></>;
+  const navigate = useNavigate()
+  useEffect(() => {
+    setTimeout(() => {
+      navigate("/portfolio");
+    }, 1000);
+  }, [navigate]);
 }
