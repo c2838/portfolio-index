@@ -21,8 +21,8 @@ function ContentCards() {
 
 export default function PortfolioContent() {
   return(
-    <section className={contentStyle.contentContainer}>
+    <div className={contentStyle.contentContainer}>
       <ContentCards />
-    </section>
+    </div>
   )
 }

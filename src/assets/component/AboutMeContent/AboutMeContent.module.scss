@@ -1,0 +1,44 @@
+.meContainer {
+  margin-left: 250px;
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.infoContainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .avator {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-right: 24px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 99em;
+  }
+}
+
+.textInfo {
+  width: 100%;
+  .chName {
+    margin-bottom: 2px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  .enName {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #5B5B5B;
+  }
+  .introduction {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    color: #7B7B7B;
+  }
+}
