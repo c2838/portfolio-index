@@ -1,27 +1,42 @@
-.contentCard {
-  width: 90%;
-  height: 100%;
-}
 
-.imgContainer {
-  width: 100%;
-  margin-bottom: 12px;
-  .demoImg {
+@media screen and (min-width: 600px) {
+  .contentCard {
+    width: 90%;
+    height: 100%;
+  }
+
+  .imgContainer {
     width: 100%;
-    border-radius: 8px;
-    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0 , 0.1);
+    margin-bottom: 12px;
+    .demoImg {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 4px 4px 5px 3px rgba(0, 0, 0 , 0.1);
+    }
+  }
+
+  .title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+  }
+
+  .introduction {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7B7B7B;
   }
 }
 
-.title {
-  margin-bottom: 8px;
-  font-size: 24px;
-  font-weight: 700;
-  color: #000;
+@media screen and (min-width: 1024px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .introduction {
+    font-size: 16px;
+  }
 }
 
-.introduction {
-  font-size: 16px;
-  font-weight: 500;
-  color: #7B7B7B;
-}
+
