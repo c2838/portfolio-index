@@ -1,6 +1,4 @@
-
-@media screen and (min-width: 600px) {
-  .contentCard {
+.contentCard {
     width: 90%;
     height: 100%;
   }
@@ -17,15 +15,25 @@
 
   .title {
     margin-bottom: 8px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: #000;
   }
 
   .introduction {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     color: #7B7B7B;
+  }
+
+
+@media screen and (min-width: 600px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .introduction {
+    font-size: 14px;
   }
 }
 

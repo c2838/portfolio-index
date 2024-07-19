@@ -1,24 +1,25 @@
-
-@media screen and (min-width: 600px) {
-  .contentContainer {
+.contentContainer {
     width: 100%;
     height: auto;
     padding: 106px 20px 0px 20px;
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-gap: 16px 0px;
-    align-items: center;
+    grid-gap: 48px 0px;
     justify-items: center;
-    justify-content: center;
+  }
+
+
+@media screen and (min-width: 600px) {
+  .contentContainer {
+    padding: 106px 20px 0px 20px;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 32px 0px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .contentContainer {
-    width: 100%;
-    height: auto;
     padding: 60px 20px 20px 270px;
-    grid-gap: 32px 0px;
   }
 }

@@ -4,13 +4,13 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="portfolio-index/aboutme" element={<AboutMePage />} />
-        <Route path="portfolio-index/portfolio" element={<PortfolioPage />} />
-        <Route path="*" element={<HomePage />} />
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="portfolio-index/aboutme" element={<AboutMePage />} />
+          <Route path="portfolio-index/portfolio" element={<PortfolioPage />} />
+          <Route path="*" element={<HomePage />} />
+        </Routes>
+      </BrowserRouter>
   );
 }
 
