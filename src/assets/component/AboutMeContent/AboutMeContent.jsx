@@ -1,3 +1,4 @@
+import avatarImg from '../../img/avatar.jpg'
 import meStyle from './AboutMeContent.module.scss'
 
 export default function AboutMeContent() {
@@ -5,9 +6,9 @@ export default function AboutMeContent() {
     <div className={meStyle.meContainer}>
       <div className={meStyle.infoContainer}>
         <img
-          src="https://scontent.fkhh1-2.fna.fbcdn.net/v/t39.30808-6/320580268_1189341291693274_269359445087337283_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=x5q31AGCfEsQ7kNvgGRuEFg&_nc_ht=scontent.fkhh1-2.fna&oh=00_AYCcF5dc2JJQA5g8gu6-r_3X9OjUQ0KDyIJJnz6MeFQv8A&oe=669FE14E"
-          alt="avator"
-          className={meStyle.avator}
+          src={avatarImg}
+          alt="avatar"
+          className={meStyle.avatar}
         />
         <div className={meStyle.textInfo}>
           <h2 className={meStyle.chName}>高群軒</h2>
